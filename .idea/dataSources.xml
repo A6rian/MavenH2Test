@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="test" uuid="12cd9b9b-92e2-4bbc-a6d2-1d8374256632">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:./test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sharingApp" uuid="25a9e5dc-0f54-4f27-9b54-c33896d3c754">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:~/MavenH2Test/sharingApp</jdbc-url>
+    </data-source>
+  </component>
+</project>
